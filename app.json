@@ -16,14 +16,15 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.kabiyesi.ledplus"
     },
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "1f714b14-1099-42e0-8c25-d599d1a7a9df"
+        "projectId": "6726a11c-759a-4566-9249-c5a7a9b79057"
       }
     },
-    "owner": "orioncode"
+    "owner": "kabiyesi"
   }
 }
