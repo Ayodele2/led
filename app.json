@@ -1,30 +1,29 @@
 {
   "expo": {
-    "name": "led-project",
-    "slug": "led-project",
+    "name": "LED Control",
+    "slug": "ledplus",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "scheme": "ledcontrol",
+    "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
+    "plugins": [
+      "expo-router"
+    ],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "1f714b14-1099-42e0-8c25-d599d1a7a9df"
+      }
+    },
+    "owner": "orioncode"
   }
 }
